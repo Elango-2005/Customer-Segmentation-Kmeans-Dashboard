@@ -331,10 +331,6 @@ B.Tech Artificial Intelligence and Data Science
 
 Machine Learning | Data Science | Full Stack Development
 
-GitHub: https://github.com/yourusername
-
-LinkedIn: https://linkedin.com/in/yourprofile
-
 ---
 
 ## License
