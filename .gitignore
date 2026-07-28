@@ -1,0 +1,72 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Flask
+# ==========================
+instance/
+.flaskenv
+
+# ==========================
+# Model Files (Optional)
+# Uncomment if models are too large
+# ==========================
+# backend/models/*.pkl
+
+# ==========================
+# React / Node
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Miscellaneous
+# ==========================
+*.tmp
+*.swp
