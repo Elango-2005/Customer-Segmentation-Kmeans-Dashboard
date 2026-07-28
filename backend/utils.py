@@ -2,14 +2,17 @@ import os
 import joblib
 import pandas as pd
 
-# ----------------------------------------------------
-# Base Directory
-# ----------------------------------------------------
-
+# backend/
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# Project root (Customer-Segmentation/)
+PROJECT_ROOT = os.path.dirname(BASE_DIR)
+
+# Models
 MODELS_DIR = os.path.join(BASE_DIR, "models")
-DATASET_DIR = os.path.join(BASE_DIR, "dataset", "cleaned")
+
+# Dataset
+DATASET_DIR = os.path.join(PROJECT_ROOT, "datasets", "cleaned")
 
 # ----------------------------------------------------
 # Load Machine Learning Models
@@ -26,7 +29,6 @@ kmeans = joblib.load(
 # ----------------------------------------------------
 # Load Customer Dataset
 # ----------------------------------------------------
-
 customer_data = pd.read_csv(
     os.path.join(
         DATASET_DIR,
