@@ -1,12 +1,12 @@
 from flask import Blueprint, request, jsonify
 
+from backend.prediction import predict_customer
 from backend.utils import (
     dashboard_summary,
     cluster_statistics
 )
 
-from prediction import predict_customer
-
+api = Blueprint("api", __name__)
 api = Blueprint("api", __name__)
 
 # -------------------------------------------------------
