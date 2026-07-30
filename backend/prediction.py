@@ -1,6 +1,6 @@
 import pandas as pd
 
-from utils import (
+from backend.utils import (
     scaler,
     kmeans,
     CLUSTER_NAMES,

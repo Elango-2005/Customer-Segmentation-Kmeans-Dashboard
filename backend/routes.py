@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 
-from utils import (
+from backend.utils import (
     dashboard_summary,
     cluster_statistics
 )
